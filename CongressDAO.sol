@@ -193,3 +193,7 @@ contract Congress is admined {
 
 
 }
+
+contract CongressDAO {
+    Congress congress = new Congress();
+}
