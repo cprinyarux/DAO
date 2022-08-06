@@ -1,5 +1,7 @@
 pragma solidity ^0.4.16;
 
+contract CongressDAO {
+    
 contract admined {
  address public admin;
 
@@ -194,6 +196,6 @@ contract Congress is admined {
 
 }
 
-contract CongressDAO {
-    Congress congress = new Congress();
+
+    
 }
